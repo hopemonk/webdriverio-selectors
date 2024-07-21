@@ -1,0 +1,19 @@
+{
+  "name": "webdriverio-test-project",
+  "type": "module",
+  "devDependencies": {
+    "@badisi/wdio-harness": "^3.1.4",
+    "@testing-library/webdriverio": "^3.2.1",
+    "@wdio/local-runner": "^8.39.1",
+    "@wdio/mocha-framework": "^8.39.0",
+    "@wdio/spec-reporter": "^8.39.0",
+    "@wdio/visual-service": "^5.1.1",
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0",
+    "wdio-wait-for": "^3.0.11"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js",
+    "test": "npx wdio run ./wdio.conf.js"
+  }
+}
